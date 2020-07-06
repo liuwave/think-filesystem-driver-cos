@@ -1,0 +1,30 @@
+{
+    "name": "liuwave/think-filesystem-driver-cos",
+    "description": "这是一个基于腾讯云对象存储的thinkphp6.0 Filesystem驱动",
+    "type": "library",
+    "keywords": [
+        "think-filesystem-driver-cos",
+        "对象存储",
+        "filesystem",
+        "腾讯云",
+        "cos"
+    ],
+    "homepage": "https://github.com/liuwave/think-filesystem-driver-cos",
+    "require": {
+        "php": ">=7.2.0",
+        "topthink/framework": "^6.0.0",
+        "overtrue/flysystem-cos": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuwave",
+            "email": "liuwave@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "liuwave\\think\\filesystem\\driver\\": "src/"
+        }
+    }
+}
