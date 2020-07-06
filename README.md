@@ -1,6 +1,6 @@
 # think-filesystem-driver-cos
 
-这是一个基于腾讯云对象存储的thinkphp6.0 Filesystem驱动
+这是一个基于腾讯云对象存储的thinkphp6.0 Filesystem驱动。
 
 ## 安装
 

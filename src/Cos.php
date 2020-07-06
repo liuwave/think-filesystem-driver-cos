@@ -5,7 +5,7 @@
  * Date: 2020/7/6 19:55
  * Description:
  */
-
+declare(strict_types=1);
 namespace liuwave\think\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
