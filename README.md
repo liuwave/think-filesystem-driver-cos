@@ -37,7 +37,7 @@ $file=\request()->file('file');
 $filesystem     = \think\facade\Filesystem::disk('cos');
 $saveName       = $filesystem->putFile('/path/to/save/file', $file, 'md5');
 $saveName       = str_replace('\\', '/', $saveName);
-$fullName = think\facade\Filesystem::getDiskConfig('cos', 'url').'/'.$saveName;
+$fullName = \think\facade\Filesystem::getDiskConfig('cos', 'url').'/'.$saveName;
 ```
 
 
